@@ -105,6 +105,7 @@ namespace AppEscritorioPrueba
 
         }
 
+        //Validacion: Solo numeros
         private void txtHorasTrab_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
@@ -164,7 +165,7 @@ namespace AppEscritorioPrueba
                 return;
             }
         }
-
+        //Validacion: Solo letras
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
@@ -174,6 +175,6 @@ namespace AppEscritorioPrueba
                 return;
             }
         }
-        //Solo numeros
+     
     }
 }
