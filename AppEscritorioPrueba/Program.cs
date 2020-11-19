@@ -16,7 +16,7 @@ namespace AppEscritorioPrueba
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSueldo());
+            Application.Run(new frmNumBinario());
         }
     }
 }
