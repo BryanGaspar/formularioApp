@@ -51,28 +51,19 @@ namespace AppEscritorioPrueba
                 txtRes.Text = txtNombre.Text + ", Ya debes casarte";
                 txtRes.Visible = true;
             }
+            if (edad >= 31 && edad <= 50)
+            {
+
+                txtRes.Text = txtNombre.Text + ", Trabaja, duerme y disfruta";
+                txtRes.Visible = true;
+            }
+            if (edad > 50)
+            {
+
+                txtRes.Text = txtNombre.Text + ", Ya casi llegas a la tercera edad";
+                txtRes.Visible = true;
+            }
         }//fin btn Calcular
-        void determinarEdad(int edad)
-        {
-          
-       
-             
-          
-                if (edad >= 31 && edad <= 50)
-                {
-
-                    txtRes.Text = txtNombre.Text + ", Trabaja, duerme y disfruta";
-                    txtRes.Visible = true;
-                }
-                if (edad > 50 )
-                {
-
-                    txtRes.Text = txtNombre.Text + ", Ya casi llegas a la tercera edad";
-                    txtRes.Visible = true;
-                }
-
-
-
-        }//fin Determinar Edad
+   
     }
 }
