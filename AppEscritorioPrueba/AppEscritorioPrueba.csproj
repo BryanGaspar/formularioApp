@@ -52,11 +52,29 @@
     <Compile Include="frmBinaNumero.Designer.cs">
       <DependentUpon>frmBinaNumero.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDatePickerEdad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatePickerEdad.Designer.cs">
+      <DependentUpon>frmDatePickerEdad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNombreEdad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNombreEdad.Designer.cs">
+      <DependentUpon>frmNombreEdad.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNumBinario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNumBinario.Designer.cs">
       <DependentUpon>frmNumBinario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNumeroPrimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNumeroPrimo.Designer.cs">
+      <DependentUpon>FrmNumeroPrimo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmSueldo.cs">
       <SubType>Form</SubType>
@@ -69,8 +87,17 @@
     <EmbeddedResource Include="frmBinaNumero.resx">
       <DependentUpon>frmBinaNumero.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDatePickerEdad.resx">
+      <DependentUpon>frmDatePickerEdad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNombreEdad.resx">
+      <DependentUpon>frmNombreEdad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNumBinario.resx">
       <DependentUpon>frmNumBinario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNumeroPrimo.resx">
+      <DependentUpon>FrmNumeroPrimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSueldo.resx">
       <DependentUpon>FrmSueldo.cs</DependentUpon>

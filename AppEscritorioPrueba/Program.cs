@@ -16,7 +16,27 @@ namespace AppEscritorioPrueba
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBinaNumero());
+          
+            //Numero decimal a Binario
+          
+            //Application.Run(new frmNumBinario());
+                
+            // Numero Binario a Decimal
+           
+            //Application.Run(new frmBinaNumero()); 
+           
+            //Numero Primo
+             
+            //Application.Run(new FrmNumeroPrimo());
+            
+            // Nombre y Edad
+           
+            //Application.Run(new frmNombreEdad());
+           
+            // Fecha de nacimiento años de vida y dias vividos
+           
+            Application.Run(new frmDatePickerEdad());
+            
         }
     }
 }
