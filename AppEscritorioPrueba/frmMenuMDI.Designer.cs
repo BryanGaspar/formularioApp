@@ -65,6 +65,7 @@ namespace AppEscritorioPrueba
             this.informesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.graduadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -93,6 +94,7 @@ namespace AppEscritorioPrueba
             this.toolStripSeparator3,
             this.saveToolStripMenuItem,
             this.toolStripMenuItem1,
+            this.toolStripMenuItem3,
             this.saveAsToolStripMenuItem,
             this.toolStripSeparator4,
             this.toolStripSeparator5,
@@ -349,6 +351,13 @@ namespace AppEscritorioPrueba
             this.graduadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.graduadosToolStripMenuItem.Text = "Graduados";
             // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(261, 22);
+            this.toolStripMenuItem3.Text = "Tablas de Multiplicar";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
             // frmMenuMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -408,6 +417,7 @@ namespace AppEscritorioPrueba
         private System.Windows.Forms.ToolStripMenuItem informesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem graduadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
     }
 }
 
