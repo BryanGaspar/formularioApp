@@ -122,5 +122,12 @@ namespace AppEscritorioPrueba
             frm1.MdiParent = this;
             frm1.Show();
         }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            frmFactorial frm1 = new frmFactorial();
+            frm1.MdiParent = this;
+            frm1.Show();
+        }
     }
 }
